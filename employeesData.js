@@ -1,4 +1,4 @@
-const appData = {
+const employeeData = {
     emp1: {
         id: "emp1",
         name: "emp1",
@@ -28,8 +28,8 @@ const appData = {
         name: "emp4",
         age: 26,
         phoneNumber: 9057831089,
-        designation: "Full Stack Developer",
-        score: 10,
+        designation: "Vue Developer",
+        score: 7,
     },
     emp5: {
         id: "emp5",
@@ -37,7 +37,7 @@ const appData = {
         age: 29,
         phoneNumber: 8977891080,
         designation: "NodeJs Developer",
-        score: 10,
+        score: 6,
     },
     emp6: {
         id: "emp6",
@@ -45,7 +45,7 @@ const appData = {
         age: 29,
         phoneNumber: 8977891080,
         designation: "NodeJs Developer",
-        score: 10,
+        score: 8,
     },
     emp7: {
         id: "emp7",
@@ -61,7 +61,7 @@ const appData = {
         age: 29,
         phoneNumber: 8977891080,
         designation: "NodeJs Developer",
-        score: 10,
+        score: 8,
     },
     emp9: {
         id: "emp9",
@@ -69,7 +69,7 @@ const appData = {
         age: 29,
         phoneNumber: 8977891080,
         designation: "NodeJs Developer",
-        score: 10,
+        score: 9,
     },
     keys: [
         "emp1",
@@ -84,4 +84,4 @@ const appData = {
     ],
 };
 
-module.exports = appData;
+module.exports = employeeData;
