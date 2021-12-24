@@ -34,9 +34,25 @@ router.get("/api/employees", (req, res) => {
     res.json(employeesMasterData);
 });
 
-router.get("/api/employees/:id", (req, res) => {
+router.get("/api/employees/:search", (req, res) => {
+    let employeeFound = { keys: [] };
+
     console.log(req.params);
-    res.json(employeesMasterData[req.params.id]);
+    for (let item in employeesMasterData) {
+        if (item != "keys") {
+            if (
+                employeesMasterData[item]["name"]
+                    .toLowerCase()
+                    .includes(req.params.search)
+            ) {
+                employeeFound[item] = employeesMasterData[item];
+                employeeFound.keys.push(item);
+                console.log(employeesMasterData[item]);
+            }
+        }
+    }
+    console.log(employeeFound);
+    res.json(employeeFound);
 });
 router.post("/api/addEmployee", (req, res) => {
     console.log(req.body);

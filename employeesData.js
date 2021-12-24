@@ -1,7 +1,7 @@
 const employeeData = {
     emp1: {
         id: "emp1",
-        name: "emp1",
+        name: "Leanne Graham",
         age: 30,
         phoneNumber: 8974045500,
         designation: "Angular Developer",
@@ -9,7 +9,7 @@ const employeeData = {
     },
     emp2: {
         id: "emp2",
-        name: "emp2",
+        name: "Ervin Howell",
         age: 37,
         phoneNumber: 7874031010,
         designation: "React Developer",
@@ -17,7 +17,7 @@ const employeeData = {
     },
     emp3: {
         id: "emp3",
-        name: "emp3",
+        name: "Chelsey Dietrich",
         age: 41,
         phoneNumber: 8974031047,
         designation: "Angular Developer",
@@ -25,7 +25,7 @@ const employeeData = {
     },
     emp4: {
         id: "emp4",
-        name: "emp4",
+        name: "Dennis Schulist",
         age: 26,
         phoneNumber: 9057831089,
         designation: "Vue Developer",
@@ -33,7 +33,7 @@ const employeeData = {
     },
     emp5: {
         id: "emp5",
-        name: "emp5",
+        name: "Kurtis Weissnat",
         age: 29,
         phoneNumber: 8977891080,
         designation: "NodeJs Developer",
@@ -41,15 +41,15 @@ const employeeData = {
     },
     emp6: {
         id: "emp6",
-        name: "emp6",
+        name: "Glenna Reichert",
         age: 29,
         phoneNumber: 8977891080,
-        designation: "NodeJs Developer",
+        designation: "Angular Developer",
         score: 8,
     },
     emp7: {
         id: "emp7",
-        name: "emp7",
+        name: "John Smith",
         age: 29,
         phoneNumber: 8977891080,
         designation: "NodeJs Developer",
@@ -57,7 +57,7 @@ const employeeData = {
     },
     emp8: {
         id: "emp8",
-        name: "emp8",
+        name: "Vikas M",
         age: 29,
         phoneNumber: 8977891080,
         designation: "NodeJs Developer",
@@ -65,7 +65,7 @@ const employeeData = {
     },
     emp9: {
         id: "emp9",
-        name: "emp9",
+        name: "Amarpreet Singh",
         age: 29,
         phoneNumber: 8977891080,
         designation: "NodeJs Developer",
